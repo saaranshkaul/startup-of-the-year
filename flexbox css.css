@@ -1,0 +1,35 @@
+
+body{
+	margin: 0px;
+}
+
+h1{font-family: fantasy;
+    color: blue;
+    font-size:3em;
+    border-bottom: 3px solid pink;
+    border-right: 3px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #8888;
+
+}
+.fleximg{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content:center;
+
+}
+.torso{
+    display: flex;
+	justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 2s;
+
+ }
+ img:hover{
+ 	transform: scale(1.1);
+ }
